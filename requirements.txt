@@ -1,0 +1,2 @@
+hjson==3.1.0
+Telethon==1.30.3

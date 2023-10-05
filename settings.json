@@ -1,0 +1,15 @@
+{
+  "api_hash": "441cf51b589da98c7ca357dae9c743d5", // Get from https://my.telegram.org/app create new app
+  "api_id": "8981047", // Get from https://my.telegram.org/app,
+  "group_id": -1001386375353, //The group id which members need to be scrapped, can get from @usinfobot, paste without ""
+  "group_to_invite": -1001969826324, //The group id where members need to be added, can get from link addres using telegram web client (example: -189024980)
+  "username": true, // The @username
+  "id": false, // TG Account ID (example 16417841)
+  "first_name": false,
+  "last_name": false,
+  "phone": true,
+  "seperate_symbols": ":", // The symbols which will seperate output data
+  "timeout": 60, //Timeout to wait after user added to group
+  "error_timeout": 60 //Timeout to wait after getting error if user wasnt added or error got,
+  "supergroup_add": 5 // How much accounts will be tried to add to supergroup per timeout
+}
